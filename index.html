@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 데모2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 메뉴 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo2</div>
+        <ul class="nav">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/timetable.html">Time Table</a>
+          </li>
+          <li>
+            <a href="/album.html">Album</a>
+          </li>
+          <li>
+            <a href="/login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 메인 섹션 -->
+    <section class="main">
+      <div class="container">
+        <h1>웹프로그래밍. Web Programming.</h1>
+        <h2>중부대학교 정보보호학전공 심재훈</h2>
+        <a href="https://github.com/J4EH00N" target="_blank"
+          ><img src="./img/profile.jpg" class="profile-image" width="300" />
+          <p>※ 이미지 클릭 시 Github로 이동</p></a
+        >
+
+        <hr />
+        <p>현재시간: <span id="time"></span></p>
+        <p>
+          배경색 바꾸기:
+          <button onclick="pink()">Pink</button>
+          <button onclick="lightblue()">Lightblue</button>
+          <button onclick="yellow()">Yellow</button>
+          <button onclick="reset()">Reset</button>
+        </p>
+        <hr />
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
